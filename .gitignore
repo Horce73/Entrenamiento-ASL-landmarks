@@ -1,0 +1,39 @@
+.venv/
+asl_env/
+
+__pycache__/
+*.pyc
+
+# Modelos y pesos
+*.keras
+*.h5
+*.tflite
+
+# Artefactos y reportes de entrenamiento
+artifacts/
+flutter_export/
+flutter_export_landmarks/
+flutter_export_landmarks_smoke/
+*.png
+*.csv
+*.json
+
+# Cache local de extracción/datasets
+.cache/
+
+# Dataset local (descargado de Kaggle)
+archive/
+
+# Caches de herramientas Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Cobertura
+.coverage
+htmlcov/
+
+# Temporales y logs
+*.log
+*.tmp
+.ipynb_checkpoints/
