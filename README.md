@@ -211,19 +211,6 @@ ASL_MODEL_DIR=artifacts/landmarks_full python -m unittest discover -s tests -v
 ASL_MIN_TEST_ACCURACY=0.50 python -m unittest discover -s tests -v
 ```
 
-## Publicar en GitHub
-
-Si aun no publicaste el repositorio:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: ASL landmarks pipeline"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
-git push -u origin main
-```
-
 ## Agradecimientos
 
 - Dataset: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
